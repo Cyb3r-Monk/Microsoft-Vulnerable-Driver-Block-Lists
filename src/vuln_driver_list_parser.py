@@ -61,5 +61,18 @@ df = pd.read_xml(
 
 
 df.fillna("", inplace=True)
+# Update FileName if empty
+df["ExtractedFileName"] = df["FriendlyName"].apply(extract_filename)
+df.loc[df["FileName"] == "", "FileName"] = df.loc[df["FileName"] == "", "ExtractedFileName"]
+df.drop(columns=["ExtractedFileName"], inplace=True)
+
+df["FileHash"] = df["FriendlyName"].apply(extract_filehash)
+df["b64FileHash"] = df["FileHash"].apply(hex_to_b64_hash)
+df.rename(columns={"Hash": "Authentihash"}, inplace=True)
+# Reorder columns
+cols = df.columns.tolist()
+cols_reorder = ["ID", "FriendlyName", "FileName", "Authentihash", "FileHash", "b64FileHash"]
+cols = [col for col in cols_reorder if col in cols] + [col for col in cols if col not in cols_reorder]
+df = df[cols]
 df.to_csv("msft_vuln_driver_block_list.csv", index=False)
 df.to_json("msft_vuln_driver_block_list.json", orient="records", indent=2)
