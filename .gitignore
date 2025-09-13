@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Vulnerable Driver Block List Folder
+VulnerableDriverBlockList/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+venv/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+
+# System
+Thumbs.db
+
+# Node
+node_modules/
+
+# Others
+*.bak
+*.swp
+*.csv

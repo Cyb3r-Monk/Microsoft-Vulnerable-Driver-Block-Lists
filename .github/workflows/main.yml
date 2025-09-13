@@ -1,0 +1,59 @@
+#
+# This is free software, licensed under the MIT License.
+# See /LICENSE for more information.
+#
+# Description: Publish Microsoft Vulnerable Driver Block List file
+#
+
+name: Publish Microsoft Vulnerable Driver Block List as CSV for SIEM lookups
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 1 */7 * *
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'  
+    - name: Install Dependencies
+      run: pip install pandas
+      shell: bash
+    - name: Check out repository code
+      uses: actions/checkout@v2
+    - name: Download https://aka.ms/VulnerableDriverBlockList, parse and transform to CSV
+      run: |
+        curl -L -o VulnerableDriverBlockList.zip https://aka.ms/VulnerableDriverBlockList
+        unzip VulnerableDriverBlockList.zip
+        python src/vuln_driver_list_parser.py
+      shell: bash
+    - name: Push to "main" branch
+      run: |
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        git add msft_vuln_driver_block_list.csv
+        git commit -m "weekly update"
+        git push -f origin main
+    - name: Upload to Releases
+      uses: softprops/action-gh-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: release
+        body: Microsoft Vulnerable Driver Block List CSV export for SIEM lookups
+        files: |
+          msft_vuln_driver_block_list.csv
+    - name: Remove old Releases
+      uses: dev-drprasad/delete-older-releases@v0.2.0
+      with:
+        keep_latest: 24
+        delete_tags: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
