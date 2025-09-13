@@ -34,4 +34,4 @@ This project automates the process of downloading the latest VulnerableDriverBlo
 
 ---
 # References
--  [Microsoft Vulnerable Driver Block List](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules#vulnerable-driver-blocklist-xml).
+-  [Microsoft Vulnerable Driver Block List](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules#vulnerable-driver-blocklist-xml)

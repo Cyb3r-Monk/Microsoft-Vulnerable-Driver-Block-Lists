@@ -57,6 +57,7 @@ jobs:
         body: Microsoft Vulnerable Driver Block List CSV export for SIEM lookups
         files: |
           msft_vuln_driver_block_list.csv
+          msft_vuln_driver_block_list.json
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@v0.2.0
       with:
