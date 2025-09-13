@@ -7,6 +7,9 @@
 
 name: Publish Microsoft Vulnerable Driver Block List as CSV for SIEM lookups
 
+permissions:
+  contents: write
+  
 on:
   repository_dispatch:
   workflow_dispatch:
