@@ -9,7 +9,7 @@ name: Publish Microsoft Vulnerable Driver Block List as CSV for SIEM lookups
 
 permissions:
   contents: write
-  
+
 on:
   repository_dispatch:
   workflow_dispatch:
@@ -41,7 +41,7 @@ jobs:
       run: |
         git config user.name "${{ github.actor }}"
         git config user.email "${{ github.actor }}@users.noreply.github.com"
-        git add -f msft_vuln_driver_block_list.csv
+        git add -f msft_vuln_driver_block_list.csv msft_vuln_driver_block_list.json
         git commit -m "weekly update"
         git push -f origin main
     - name: Upload to Releases
