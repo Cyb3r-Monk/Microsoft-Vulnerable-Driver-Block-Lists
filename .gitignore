@@ -37,3 +37,4 @@ node_modules/
 *.bak
 *.swp
 *.csv
+*.json
