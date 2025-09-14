@@ -43,6 +43,7 @@ jobs:
         git config user.email "${{ github.actor }}@users.noreply.github.com"
         if [[ -n $(git status --porcelain) ]]; then
             git add -f msft_vuln_driver_block_list.csv msft_vuln_driver_block_list.json
+            git add -f VulnerableDriverBlockList/
             git commit -m "weekly update"
             git push -f origin main
         else
