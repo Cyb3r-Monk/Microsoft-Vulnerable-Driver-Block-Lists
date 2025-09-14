@@ -29,7 +29,8 @@ This project automates the process of downloading the latest VulnerableDriverBlo
 - `ProductName`: Used in File attribute rules 
 
 ## Usage
-1. Use the generated CSV/JSON files for lookups in SIEM, EDR, or other security platforms.
+- [KQL query for MDE](https://github.com/Cyb3r-Monk/Threat-Hunting-and-Detection/blob/main/Defense%20Evasion/Microsoft%20Recommended%20Driver%20Block%20List.md)
+- Use the generated CSV/JSON files for lookups in SIEM, EDR, or other security platforms.
 
 
 ---
