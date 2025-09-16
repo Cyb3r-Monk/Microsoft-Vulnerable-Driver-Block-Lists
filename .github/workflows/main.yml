@@ -34,7 +34,7 @@ jobs:
     - name: Download https://aka.ms/VulnerableDriverBlockList, parse and transform to CSV
       run: |
         curl -L -o VulnerableDriverBlockList.zip https://aka.ms/VulnerableDriverBlockList
-        unzip VulnerableDriverBlockList.zip
+        unzip -o VulnerableDriverBlockList.zip
         python src/vuln_driver_list_parser.py
       shell: bash
     - name: Push to "main" branch
