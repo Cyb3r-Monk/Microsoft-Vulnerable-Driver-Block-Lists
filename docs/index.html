@@ -82,7 +82,7 @@
     });
 
     // Files Table
-    fetch('../msft_vuln_driver_block_list.json')
+    fetch('msft_vuln_driver_block_list.json')
         .then(response => response.json())
         .then(data => {
             const filesColumns = [
@@ -115,7 +115,7 @@
         });
 
     // Signers Table
-    fetch('../msft_vuln_driver_signers.json')
+    fetch('msft_vuln_driver_signers.json')
         .then(response => response.json())
         .then(data => {
             const signersColumns = [
