@@ -1,0 +1,1521 @@
+[
+  {
+    "ID":"ID_SIGNER_VERISIGN_2010",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_2010_2",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4678C6E4A8787A8E6ED2BCE8792B122F6C08AFD8",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_CAPCOM",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1",
+    "CertPublisher":"CAPCOM Co.,Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_CHEAT_ENGINE",
+    "Name":"Microsoft Windows Third Party Component CA 2014 Cheat Engine OPUS",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_ENE",
+    "Name":"Microsoft Windows Third Party Component CA 2014 ENE Tech OPUS",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_MB_RB_HACKS",
+    "Name":"Microsoft Windows Third Party Component CA 2014 MB Rb online OPUS",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_MAN_MUS",
+    "Name":"Microsoft Windows Third Party Component CA 2014 MANUEL OPUS",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_DIGICERT_EV",
+    "Name":"DigiCert EV Code Signing CA (SHA2)",
+    "CertRootType":"TBS",
+    "CertRootValue":"EEC58131DC11CD7F512501B15FDBC6074C603B68CA91F7162D5A042054EDB0CF",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_ELBY",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"041750993D7C9E063F02DFE74699598640911AAB",
+    "CertPublisher":"Elaborate Bytes AG"
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_2009",
+    "Name":"VeriSign Class 3 Code Signing 2009-2 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4CDC38C800761463749C3CBD94A12F32E49877BF",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_SANDRA",
+    "Name":"GeoTrust TrustCenter CodeSigning CA I",
+    "CertRootType":"TBS",
+    "CertRootValue":"172F39BCA3DDA7C6D5169C96B34A5FE7E96FF0BD",
+    "CertPublisher":"SiSoftware Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_SANDRA_THAWTE",
+    "Name":"Thawte Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"F6297A00D3B2B4CE4750402B66E7EA018D54F683",
+    "CertPublisher":"SiSoftware Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_MIMIKATZ_KERNEL",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"Benjamin Delpy"
+  },
+  {
+    "ID":"ID_SIGNER_MIMIKATZ_KERNEL_SHA2",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"F6CAE0B028995EB13B1C2CCE5B5107384AB7C77279AE5560933E345061D99CC0",
+    "CertPublisher":"Benjamin Delpy"
+  },
+  {
+    "ID":"ID_SIGNER_MIMIKATZ_USER",
+    "Name":"Certum Code Signing CA SHA2",
+    "CertRootType":"TBS",
+    "CertRootValue":"F7B6EEB3A567223000A61F68C53B458193557C17E5D512D2825BCB13E5FC9BE5",
+    "CertPublisher":"Open Source Developer, Benjamin Delpy"
+  },
+  {
+    "ID":"ID_SIGNER_SPEEDFAN",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"Sokno S.R.L."
+  },
+  {
+    "ID":"ID_SIGNER_RWEVERY",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"ChongKim Chan"
+  },
+  {
+    "ID":"ID_SIGNER_VBOX",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"041750993D7C9E063F02DFE74699598640911AAB",
+    "CertPublisher":"innotek GmbH"
+  },
+  {
+    "ID":"ID_SIGNER_REALTEK",
+    "Name":"DigiCert EV Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"2D54C16A8F8B69CCDEA48D0603C132F547A5CF75",
+    "CertPublisher":"Realtek Semiconductor Corp."
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_2009_REALTEK",
+    "Name":"VeriSign Class 3 Code Signing 2009-2 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4CDC38C800761463749C3CBD94A12F32E49877BF",
+    "CertPublisher":"Realtek Semiconductor Corp."
+  },
+  {
+    "ID":"ID_SIGNER_WINDOWS_3RD_PARTY_2012",
+    "Name":"Microsoft Windows Third Party Component CA 2012",
+    "CertRootType":"TBS",
+    "CertRootValue":"CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46",
+    "CertPublisher":"Microsoft Windows Hardware Compatibility Publisher"
+  },
+  {
+    "ID":"ID_SIGNER_WINDOWS_3RD_PARTY_2014",
+    "Name":"Microsoft Windows Third Party Component CA 2014",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":"Microsoft Windows Hardware Compatibility Publisher"
+  },
+  {
+    "ID":"ID_SIGNER_WINDOWS_3RD_PARTY_2010",
+    "Name":"Microsoft Third Party Component Windows PCA 2010",
+    "CertRootType":"TBS",
+    "CertRootValue":"90C9669670E75989159E6EEF69625EB6AD17CBA6209ED56F5665D55450A05212",
+    "CertPublisher":"Microsoft Windows Hardware Compatibility Publisher"
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_2004",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_2004_BIOSTAR",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"BIOSTAR MICROTECH INT'L CORP"
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_2004_ASUS_BS_DEF",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"ASUSTeK Computer Inc."
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_2009_BIOSTAR",
+    "Name":"VeriSign Class 3 Code Signing 2009-2 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4CDC38C800761463749C3CBD94A12F32E49877BF",
+    "CertPublisher":"BIOSTAR MICROTECH INT'L CORP"
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_2010_BIOSTAR",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"BIOSTAR MICROTECH INT'L CORP"
+  },
+  {
+    "ID":"ID_SIGNER_GLOBALSIGN_G2_MICROSTAR",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"MICRO-STAR INTERNATIONAL CO., LTD."
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_TOSHIBA",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"TOSHIBA CORPORATION"
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_NOVELL",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Novell, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_GLOBALSIGN_MICROSTAR",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"041750993D7C9E063F02DFE74699598640911AAB",
+    "CertPublisher":"Micro-Star Int'l Co. Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_INSYDE",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Insyde Software Corp."
+  },
+  {
+    "ID":"ID_SIGNER_SYMANTEC_CLASS_3",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_SYMANTEC_CLASS_3_EV",
+    "Name":"Symantec Class 3 Extended Validation Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"B3C925B4048C3F7C444D248A2B101186B57CBA39596EB5DCE0E17A4EE4B32F19",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_AMD",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Advanced Micro Devices, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_VERISIGN_TG_SOFT",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"TG Soft S.a.s. Di Tonello Gianfranco e C."
+  },
+  {
+    "ID":"ID_SIGNER_GLOBALSIGN_TG_SOFT",
+    "Name":"GlobalSign CodeSigning CA - G3",
+    "CertRootType":"TBS",
+    "CertRootValue":"F478F0E790D5C8EC6056A3AB2567404A991D2837",
+    "CertPublisher":"TG Soft di Tonello Gianfranco ed Enrico S.r.l."
+  },
+  {
+    "ID":"ID_SIGNER_HP",
+    "Name":"DigiCert SHA2 Assured ID Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65",
+    "CertPublisher":"HP Inc."
+  },
+  {
+    "ID":"ID_SIGNER_GETAC",
+    "Name":"Symantec Class 3 Extended Validation Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"B3C925B4048C3F7C444D248A2B101186B57CBA39596EB5DCE0E17A4EE4B32F19",
+    "CertPublisher":"Getac Technology Corp."
+  },
+  {
+    "ID":"ID_SIGNER_GLOBALSIGN_CHEAT_ENGINE",
+    "Name":"GlobalSign CA Cheat Engine Publisher",
+    "CertRootType":"TBS",
+    "CertRootValue":"BD1765C56594221373893EF26D97F88C144FB0E5A0111215B45D7239C3444DF7",
+    "CertPublisher":"Cheat Engine"
+  },
+  {
+    "ID":"ID_SIGNER_GLOBALSIGN_G2_CHEAT_ENGINE",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"Cheat Engine"
+  },
+  {
+    "ID":"ID_SIGNER_PHYSMEM",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"Hilscher Gesellschaft fuer Systemautomation mbH"
+  },
+  {
+    "ID":"ID_SIGNER_VMDRV",
+    "Name":"DigiCert EV Code Signing CA (SHA2)",
+    "CertRootType":"TBS",
+    "CertRootValue":"EEC58131DC11CD7F512501B15FDBC6074C603B68CA91F7162D5A042054EDB0CF",
+    "CertPublisher":"Voicemod Sociedad Limitada"
+  },
+  {
+    "ID":"ID_SIGNER_INTEL_IQVW",
+    "Name":"Intel External Basic Policy CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"53B052BA209C525233293274854B264BC0F68B73",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_COMODO_IQVW",
+    "Name":"COMODO RSA Certification Authority",
+    "CertRootType":"TBS",
+    "CertRootValue":"7CE102D63C57CB48F80A65D1A5E9B350A7A618482AA5A36775323CA933DDFCB00DEF83796A6340DEC5EBF7596CFD8E5D",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_AMDPP",
+    "Name":"USERTrust RSA Certification Authority",
+    "CertRootType":"TBS",
+    "CertRootValue":"13BAA039635F1C5292A8C2F36AAE7E1D25C025202E9092F5B0F53F5F752DFA9C71B3D1B8D9A6358FCEE6EC75622FABF9",
+    "CertPublisher":"Advanced Micro Devices Inc."
+  },
+  {
+    "ID":"ID_SIGNER_AGNITUM_2004",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"Agnitum Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_AGNITUM_2009",
+    "Name":"VeriSign Class 3 Code Signing 2009-2 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4CDC38C800761463749C3CBD94A12F32E49877BF",
+    "CertPublisher":"Agnitum Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_AGNITUM_2010",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Agnitum Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_AGNITUM_2010_1",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4678C6E4A8787A8E6ED2BCE8792B122F6C08AFD8",
+    "CertPublisher":"Agnitum Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_PHYMEM",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Super Micro Computer, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_PHYMEM_1",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1",
+    "CertPublisher":"Super Micro Computer, Inc. Taiwan"
+  },
+  {
+    "ID":"ID_SIGNER_PHYMEM_2",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1",
+    "CertPublisher":"Super Micro Computer, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_NVFLASH",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"NVIDIA Corporation"
+  },
+  {
+    "ID":"ID_SIGNER_NVFLASH_2",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"7F25CBD37DCDC0E0D93E0D477C4BC0C54231379E6CAF1023841E1F0D96467A6C",
+    "CertPublisher":"NVIDIA Corporation"
+  },
+  {
+    "ID":"ID_SIGNER_NVFLASH_3",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1",
+    "CertPublisher":"NVIDIA Corporation"
+  },
+  {
+    "ID":"ID_SIGNER_LV_LOGITECH",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"Logitech Inc"
+  },
+  {
+    "ID":"ID_SIGNER_WISEUNLO",
+    "Name":"DigiCert EV Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"2D54C16A8F8B69CCDEA48D0603C132F547A5CF75",
+    "CertPublisher":"Beijing Lang Xingda Network Technology Co., Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_WISEUNLO_1",
+    "Name":"DigiCert EV Code Signing CA (SHA2)",
+    "CertRootType":"TBS",
+    "CertRootValue":"EEC58131DC11CD7F512501B15FDBC6074C603B68CA91F7162D5A042054EDB0CF",
+    "CertPublisher":"Beijing Lang Xingda Network Technology Co., Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_WISEUNLO_2",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Lespeed Technology Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_LV_DIAG",
+    "Name":"DigiCert SHA2 Assured ID Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65",
+    "CertPublisher":"Lenovo"
+  },
+  {
+    "ID":"ID_SIGNER_LV_DIAG_2",
+    "Name":"DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1",
+    "CertRootType":"TBS",
+    "CertRootValue":"65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64",
+    "CertPublisher":"Lenovo"
+  },
+  {
+    "ID":"ID_SIGNER_IOBITUNLOCKER_1",
+    "Name":"DigiCert EV Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"2D54C16A8F8B69CCDEA48D0603C132F547A5CF75",
+    "CertPublisher":"IObit CO., LTD"
+  },
+  {
+    "ID":"ID_SIGNER_IOBITUNLOCKER_2",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"IObit Information Technology"
+  },
+  {
+    "ID":"ID_SIGNER_IOBITUNLOCKER_3",
+    "Name":"DigiCert EV Code Signing CA (SHA2)",
+    "CertRootType":"TBS",
+    "CertRootValue":"EEC58131DC11CD7F512501B15FDBC6074C603B68CA91F7162D5A042054EDB0CF",
+    "CertPublisher":"IObit CO., LTD"
+  },
+  {
+    "ID":"ID_SIGNER_IOBITUNLOCKER_4",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1",
+    "CertPublisher":"IObit Information Technology"
+  },
+  {
+    "ID":"ID_SIGNER_ATILLK",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"ATI Technologies, Inc"
+  },
+  {
+    "ID":"ID_SIGNER_HW_A",
+    "Name":"GlobalSign",
+    "CertRootType":"TBS",
+    "CertRootValue":"DE1DA11668F0A8D5E13346ED3AB2755F5D25BEBFFCFD1D0BDE5B9F87BC292C91",
+    "CertPublisher":"Marvin Test Solutions, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_HW_B",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"Marvin Test Solutions, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_HW_C",
+    "Name":"GlobalSign",
+    "CertRootType":"TBS",
+    "CertRootValue":"BD1765C56594221373893EF26D97F88C144FB0E5A0111215B45D7239C3444DF7",
+    "CertPublisher":"Marvin Test Solutions, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_HW_D",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"879269F3F467A6D59641960A62FE9CB419355FF6",
+    "CertPublisher":"Geotest - Marvin Test Systems, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_HWRWDRV_1",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Shuttle Inc."
+  },
+  {
+    "ID":"ID_SIGNER_HWRWDRV_2",
+    "Name":"Symantec Class 3 Extended Validation Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"B3C925B4048C3F7C444D248A2B101186B57CBA39596EB5DCE0E17A4EE4B32F19",
+    "CertPublisher":"SHUTTLE INC."
+  },
+  {
+    "ID":"ID_SIGNER_MYDRIVERS_1",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Beijing Kingsoft Security software Co.,Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_MYDRIVERS_2",
+    "Name":"GlobalSign",
+    "CertRootType":"TBS",
+    "CertRootValue":"BD1765C56594221373893EF26D97F88C144FB0E5A0111215B45D7239C3444DF7",
+    "CertPublisher":"\u5317\u4eac\u91d1\u5c71\u5b89\u5168\u8f6f\u4ef6\u6709\u9650\u516c\u53f8"
+  },
+  {
+    "ID":"ID_SIGNER_MYDRIVERS_3",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1",
+    "CertPublisher":"Beijing Kingsoft Security software Co.,Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_PAN",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"PAN YAZILIM BILISIM TEKNOLOJILERI TICARET LTD. STI."
+  },
+  {
+    "ID":"ID_SIGNER_ASWARPOT_1",
+    "Name":"DigiCert High Assurance Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"1D7E838ACCD498C2E5BA9373AF819EC097BB955C",
+    "CertPublisher":"Avast Software s.r.o."
+  },
+  {
+    "ID":"ID_SIGNER_ASWARPOT_2",
+    "Name":"Microsoft Windows Third Party Component CA 2012",
+    "CertRootType":"TBS",
+    "CertRootValue":"CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46",
+    "CertPublisher":"Microsoft Windows Hardware Compatibility Publisher"
+  },
+  {
+    "ID":"ID_SIGNER_ASWARPOT_3",
+    "Name":"DigiCert EV Code Signing CA (SHA2)",
+    "CertRootType":"TBS",
+    "CertRootValue":"EEC58131DC11CD7F512501B15FDBC6074C603B68CA91F7162D5A042054EDB0CF",
+    "CertPublisher":"Avast plc"
+  },
+  {
+    "ID":"ID_SIGNER_ASWARPOT_4",
+    "Name":"DigiCert SHA2 Assured ID Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65",
+    "CertPublisher":"Avast Software s.r.o."
+  },
+  {
+    "ID":"ID_SIGNER_ASWARPOT_5",
+    "Name":"DigiCert High Assurance Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"1D7E838ACCD498C2E5BA9373AF819EC097BB955C",
+    "CertPublisher":"AVAST Software s.r.o."
+  },
+  {
+    "ID":"ID_SIGNER_ASWARPOT_6",
+    "Name":"DigiCert SHA2 Assured ID Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65",
+    "CertPublisher":"AVAST Software s.r.o."
+  },
+  {
+    "ID":"ID_SIGNER_ASWSNX_1",
+    "Name":"DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1",
+    "CertRootType":"TBS",
+    "CertRootValue":"65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_ASWSNX_2",
+    "Name":"DigiCert Trusted Root G4",
+    "CertRootType":"TBS",
+    "CertRootValue":"11533EFD6B326A4E065A936DE300FE0586A479F93D569D2403BD62C7AD35F1B2199DAEE3ADB510F429C4FC97B4B024E3",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_ASWSNX_3",
+    "Name":"DigiCert High Assurance Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"1D7E838ACCD498C2E5BA9373AF819EC097BB955C",
+    "CertPublisher":"AVAST Software a.s."
+  },
+  {
+    "ID":"ID_SIGNER_ASWSNX_4",
+    "Name":"DigiCert Assured ID Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"47F4B9898631773231B32844EC0D49990AC4EB1E",
+    "CertPublisher":"AVG Technologies USA, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_MS_ELAM",
+    "Name":"Microsoft Windows Third Party Component CA 2014",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_MS_ELAM_1",
+    "Name":"Microsoft Code Signing PCA 2010",
+    "CertRootType":"TBS",
+    "CertRootValue":"121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_AVGELAM_1",
+    "Name":"DigiCert High Assurance Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"1D7E838ACCD498C2E5BA9373AF819EC097BB955C",
+    "CertPublisher":"AVAST Software s.r.o."
+  },
+  {
+    "ID":"ID_SIGNER_AVGELAM_2",
+    "Name":"DigiCert SHA2 Assured ID Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65",
+    "CertPublisher":"AVAST Software s.r.o."
+  },
+  {
+    "ID":"ID_SIGNER_NGIODRIVER",
+    "Name":"DigiCert High Assurance Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"1D7E838ACCD498C2E5BA9373AF819EC097BB955C",
+    "CertPublisher":"AVAST Software a.s."
+  },
+  {
+    "ID":"ID_SIGNER_GMEREK",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"GMEREK Systemy Komputerowe Przemyslaw Gmerek"
+  },
+  {
+    "ID":"ID_SIGNER_GMER",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"GMEREK Systemy Komputerowe Przemyslaw Gmerek"
+  },
+  {
+    "ID":"ID_SIGNER_HWINFO_1",
+    "Name":"GlobalSign CodeSigning CA - G3",
+    "CertRootType":"TBS",
+    "CertRootValue":"F478F0E790D5C8EC6056A3AB2567404A991D2837",
+    "CertPublisher":"Zhengzhou Heng Kuai Information Technology Co., Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_HWINFO_2",
+    "Name":"Certum Extended Validation Code Signing 2021 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"56F431D13FD6F7974905196A6367D252A955C5FE34DB1E48CFA3EB569707809D63DE4A0FF8FEF57BE69C23284D9144EA",
+    "CertPublisher":"Martin Malik - REALiX"
+  },
+  {
+    "ID":"ID_SIGNER_HWINFO_3",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"879269F3F467A6D59641960A62FE9CB419355FF6",
+    "CertPublisher":"REALiX"
+  },
+  {
+    "ID":"ID_SIGNER_HWINFO_4",
+    "Name":"DigiCert EV Code Signing CA (SHA2)",
+    "CertRootType":"TBS",
+    "CertRootValue":"EEC58131DC11CD7F512501B15FDBC6074C603B68CA91F7162D5A042054EDB0CF",
+    "CertPublisher":"Martin Malik - REALiX"
+  },
+  {
+    "ID":"ID_SIGNER_HWINFO_5",
+    "Name":"GlobalSign CodeSigning CA - SHA256 - G3",
+    "CertRootType":"TBS",
+    "CertRootValue":"06936BAC8D2F85D9CE6F7348EA421A1A949219182845192667B0E671FE0E4285",
+    "CertPublisher":"Zhengzhou Heng Kuai Information Technology Co., Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_HWINFO_6",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"Martin Malik - REALiX"
+  },
+  {
+    "ID":"ID_SIGNER_ASROCK_RWDRV",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"ASROCK Incorporation"
+  },
+  {
+    "ID":"ID_SIGNER_FAIRPLAY_1",
+    "Name":"Thawte Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"95795D2AA2A554A423BC8C6E5B0A016D14887D35",
+    "CertPublisher":"Hans Roes"
+  },
+  {
+    "ID":"ID_SIGNER_FAIRPLAY_2",
+    "Name":"thawte SHA256 Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C734685D985B8EA13DB4FC1A6DCD26AA0DDE78B4C3B651EA5D58E32E081B2A41",
+    "CertPublisher":"Hans Roes"
+  },
+  {
+    "ID":"ID_SIGNER_FAIRPLAY_3",
+    "Name":"Thawte Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"95795D2AA2A554A423BC8C6E5B0A016D14887D35",
+    "CertPublisher":"Hans Roes"
+  },
+  {
+    "ID":"ID_SIGNER_FAIRPLAY_4",
+    "Name":"thawte SHA256 Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C734685D985B8EA13DB4FC1A6DCD26AA0DDE78B4C3B651EA5D58E32E081B2A41",
+    "CertPublisher":"Hans Roes"
+  },
+  {
+    "ID":"ID_SIGNER_HAXM_1",
+    "Name":"Symantec Class 3 Extended Validation Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"B3C925B4048C3F7C444D248A2B101186B57CBA39596EB5DCE0E17A4EE4B32F19",
+    "CertPublisher":"XM Cyber LTD"
+  },
+  {
+    "ID":"ID_SIGNER_HAXM_2",
+    "Name":"COMODO Code Signing CA 2",
+    "CertRootType":"TBS",
+    "CertRootValue":"EE6C8048E2AA17A6506ECC99D41B1BA6794C3252",
+    "CertPublisher":"XM LTD"
+  },
+  {
+    "ID":"ID_SIGNER_HAXM_3",
+    "Name":"Symantec Class 3 Extended Validation Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"B3C925B4048C3F7C444D248A2B101186B57CBA39596EB5DCE0E17A4EE4B32F19",
+    "CertPublisher":"XM LTD"
+  },
+  {
+    "ID":"ID_SIGNER_PROCEXP_1",
+    "Name":"VeriSign Class 3 Code Signing 2009-2 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4CDC38C800761463749C3CBD94A12F32E49877BF",
+    "CertPublisher":"Sysinternals"
+  },
+  {
+    "ID":"ID_SIGNER_PROCEXP_2",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"Sysinternals"
+  },
+  {
+    "ID":"ID_SIGNER_PROCEXP_3",
+    "Name":"Microsoft Windows Hardware Compatibility PCA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C5506BEE3C29254DC5B5A0E6E7A14046522708EF",
+    "CertPublisher":"Microsoft Windows Hardware Compatibility Publisher"
+  },
+  {
+    "ID":"ID_SIGNER_PROCEXP_4",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Sysinternals"
+  },
+  {
+    "ID":"ID_SIGNER_PROCEXP_5",
+    "Name":"Microsoft Windows Hardware Compatibility PCA",
+    "CertRootType":"TBS",
+    "CertRootValue":"6B3242A9A639B0DA4D5882C7EEB402BE6615AD0C",
+    "CertPublisher":"Microsoft Windows Hardware Compatibility Publisher"
+  },
+  {
+    "ID":"ID_SIGNER_OPENLIBSYS",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"041750993D7C9E063F02DFE74699598640911AAB",
+    "CertPublisher":"Noriyuki MIYAZAKI"
+  },
+  {
+    "ID":"ID_SIGNER_PCDOC",
+    "Name":"DigiCert EV Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"2D54C16A8F8B69CCDEA48D0603C132F547A5CF75",
+    "CertPublisher":"PC-Doctor, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_SYSDRV3S",
+    "Name":"GlobalSign 3S-Smart",
+    "CertRootType":"TBS",
+    "CertRootValue":"BD1765C56594221373893EF26D97F88C144FB0E5A0111215B45D7239C3444DF7",
+    "CertPublisher":"3S-Smart Software Solutions GmbH"
+  },
+  {
+    "ID":"ID_SIGNER_PAVEL_Y_1",
+    "Name":"DigiCert SHA2 Assured ID Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65",
+    "CertPublisher":"Pavel Yosifovich"
+  },
+  {
+    "ID":"ID_SIGNER_PAVEL_Y_2",
+    "Name":"DigiCert SHA2 High Assurance Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"0BF095B845B69928B5D7DFD1C42AE4F90FEB8DC97F7830598C93E848877021FB",
+    "CertPublisher":"Pavel Yosifovich"
+  },
+  {
+    "ID":"ID_SIGNER_ALSYSIO_1",
+    "Name":"COMODO RSA Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4805A7E23D6C8FF5E149F197B744BCB2346E73F19A48835A2F64129183981109256B75EA371A331746D01FD4E135AB6E",
+    "CertPublisher":"ALCPU"
+  },
+  {
+    "ID":"ID_SIGNER_ALSYSIO_2",
+    "Name":"UTN-USERFirst-Object",
+    "CertRootType":"TBS",
+    "CertRootValue":"C45627B5584BF62327DF60D6185744A2D2F2BCBF",
+    "CertPublisher":"ALCPU"
+  },
+  {
+    "ID":"ID_SIGNER_MICKS",
+    "Name":"Microsoft Windows Third Party Component CA 2014",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_ETDSUPPORT",
+    "Name":"DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1",
+    "CertRootType":"TBS",
+    "CertRootValue":"65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64",
+    "CertPublisher":"HP Inc."
+  },
+  {
+    "ID":"ID_SIGNER_NVOCLOCK",
+    "Name":"GeoTrust TrustCenter CodeSigning CA I",
+    "CertRootType":"TBS",
+    "CertRootValue":"172F39BCA3DDA7C6D5169C96B34A5FE7E96FF0BD",
+    "CertPublisher":"Micro-Star Int'l Co., Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_CPUZ_1",
+    "Name":"DigiCert EV Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"2D54C16A8F8B69CCDEA48D0603C132F547A5CF75",
+    "CertPublisher":"CPUID S.A.R.L.U."
+  },
+  {
+    "ID":"ID_SIGNER_CPUZ_2",
+    "Name":"Certum Extended Validation Code Signing 2021 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"56F431D13FD6F7974905196A6367D252A955C5FE34DB1E48CFA3EB569707809D63DE4A0FF8FEF57BE69C23284D9144EA",
+    "CertPublisher":"CPUID"
+  },
+  {
+    "ID":"ID_SIGNER_MSIO32",
+    "Name":"DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1",
+    "CertRootType":"TBS",
+    "CertRootValue":"65B1D4076A89AE273F57E6EEEDECB3EAE129B4168F76FA7671914CDF461D542255C59D9B85B916AE0CA6FC0FCF7A8E64",
+    "CertPublisher":"Creative Technology Innovation Co., Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_TRUESIGHT_1",
+    "Name":"Sectigo Public Code Signing Root R46",
+    "CertRootType":"TBS",
+    "CertRootValue":"A229D2722BC6091D73B1D979B81088C977CB028A6F7CBF264BB81D5CC8F099F87D7C296E48BF09D7EBE275F5498661A4",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_TRUESIGHT_2",
+    "Name":"DigiCert SHA2 High Assurance Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"0BF095B845B69928B5D7DFD1C42AE4F90FEB8DC97F7830598C93E848877021FB",
+    "CertPublisher":"Adlice"
+  },
+  {
+    "ID":"ID_SIGNER_TRUESIGHT_3",
+    "Name":"DigiCert High Assurance Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"1D7E838ACCD498C2E5BA9373AF819EC097BB955C",
+    "CertPublisher":"Adlice"
+  },
+  {
+    "ID":"ID_SIGNER_TRUESIGHT_4",
+    "Name":"DigiCert SHA2 High Assurance Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"0BF095B845B69928B5D7DFD1C42AE4F90FEB8DC97F7830598C93E848877021FB",
+    "CertPublisher":"Adlice"
+  },
+  {
+    "ID":"ID_SIGNER_HWDETECTNG",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"041750993D7C9E063F02DFE74699598640911AAB",
+    "CertPublisher":"iNFERRE"
+  },
+  {
+    "ID":"ID_SIGNER_RENTDRV",
+    "Name":"Microsoft Windows Third Party Component CA 2014",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_MSRHOOK",
+    "Name":"Microsoft Windows Third Party Component CA 2012",
+    "CertRootType":"TBS",
+    "CertRootValue":"CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_SFDRVX32",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"SOKNO S.R.L."
+  },
+  {
+    "ID":"ID_SIGNER_COMPUTERZ_1",
+    "Name":"VeriSign Class 3 Code Signing 2009-2 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4CDC38C800761463749C3CBD94A12F32E49877BF",
+    "CertPublisher":"Chengdu Qiying Technology Co.,Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_COMPUTERZ_2",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Chengdu Qiying Technology Co.,Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_ECSIODRV",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"879269F3F467A6D59641960A62FE9CB419355FF6",
+    "CertPublisher":"ELITEGROUP COMPUTER SYSTEMS CO"
+  },
+  {
+    "ID":"ID_SIGNER_IOMAP",
+    "Name":"DigiCert High Assurance Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"1D7E838ACCD498C2E5BA9373AF819EC097BB955C",
+    "CertPublisher":"ASUSTeK Computer Inc."
+  },
+  {
+    "ID":"ID_SIGNER_STDCDRV",
+    "Name":"Sectigo RSA Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"20ADC5B59CB532E215F01BA09A9C745898C206555613512FEA7C295CCFD17CED4FE2C5BC3274CA8A270FC68799B8343C",
+    "CertPublisher":"Intel Corporation"
+  },
+  {
+    "ID":"ID_SIGNER_STDCDRVWS",
+    "Name":"Intel External Basic Policy CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"F56832BC9412C372F9A8744591258F8BB11AF2D8",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_ZAM_1",
+    "Name":"DigiCert High Assurance Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"1D7E838ACCD498C2E5BA9373AF819EC097BB955C",
+    "CertPublisher":"Zemana Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_ZAM_2",
+    "Name":"GlobalSign",
+    "CertRootType":"TBS",
+    "CertRootValue":"DE1DA11668F0A8D5E13346ED3AB2755F5D25BEBFFCFD1D0BDE5B9F87BC292C91",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_ZAM_3",
+    "Name":"WATCHDOG ZAM",
+    "CertRootType":"TBS",
+    "CertRootValue":"8DE6EAE4E1479F02DC58281AD5C035E629345FF74A177E559192D03BD23E0F9F",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_APPID",
+    "Name":"Microsoft Windows Applocker Appid",
+    "CertRootType":"TBS",
+    "CertRootValue":"4E80BE107C860DE896384B3EFF50504DC2D76AC7151DF3102A4450637A032146",
+    "CertPublisher":"Microsoft Windows"
+  },
+  {
+    "ID":"ID_SIGNER_WINKERNEXP",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Synhe Technology Co., Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_ARTIFICIAL_1",
+    "Name":"Microsoft Windows Third Party Component CA 2014 - Artificial Software",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_ARTIFICIAL_2",
+    "Name":"Microsoft Windows Third Party Component CA 2012 - Artificial Software",
+    "CertRootType":"TBS",
+    "CertRootValue":"CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_LDIAGIO_1",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Lenovo Information Products (Shenzhen) Co.,Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_LDIAGIO_2",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"7F25CBD37DCDC0E0D93E0D477C4BC0C54231379E6CAF1023841E1F0D96467A6C",
+    "CertPublisher":"Lenovo"
+  },
+  {
+    "ID":"ID_SIGNER_LDIAGIO_3",
+    "Name":"Microsoft Windows Third Party Component CA 2012",
+    "CertRootType":"TBS",
+    "CertRootValue":"CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46",
+    "CertPublisher":"Microsoft Windows Hardware Compatibility Publisher"
+  },
+  {
+    "ID":"ID_SIGNER_LDIAGIO_4",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"LENOVO"
+  },
+  {
+    "ID":"ID_SIGNER_LDIAGIO_5",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"7F25CBD37DCDC0E0D93E0D477C4BC0C54231379E6CAF1023841E1F0D96467A6C",
+    "CertPublisher":"LENOVO (UNITED STATES) INC."
+  },
+  {
+    "ID":"ID_SIGNER_ATOOLS_1",
+    "Name":"DigiCert Assured ID Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"47F4B9898631773231B32844EC0D49990AC4EB1E",
+    "CertPublisher":"Antiy Labs"
+  },
+  {
+    "ID":"ID_SIGNER_ATOOLS_2",
+    "Name":"DigiCert Trusted Root G4",
+    "CertRootType":"TBS",
+    "CertRootValue":"11533EFD6B326A4E065A936DE300FE0586A479F93D569D2403BD62C7AD35F1B2199DAEE3ADB510F429C4FC97B4B024E3",
+    "CertPublisher":"Antiy Labs"
+  },
+  {
+    "ID":"ID_SIGNER_ITM_1",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"79F0A648BD7F1184F86BFF43AE47C9ECC3ED3CEC",
+    "CertPublisher":"ITM System Co.,LTD"
+  },
+  {
+    "ID":"ID_SIGNER_ITM_2",
+    "Name":"GlobalSign CodeSigning CA - G3",
+    "CertRootType":"TBS",
+    "CertRootValue":"F478F0E790D5C8EC6056A3AB2567404A991D2837",
+    "CertPublisher":"ITM System Co.,Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_ITM_3",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"ITM System Co.,Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_KSAPI_1",
+    "Name":"DigiCert Assured ID Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"47F4B9898631773231B32844EC0D49990AC4EB1E",
+    "CertPublisher":"Beijing Kingsoft Security software Co.,Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_KSAPI_2",
+    "Name":"GlobalSign Extended Validation CodeSigning CA - SHA256 - G3 Kingsoft",
+    "CertRootType":"TBS",
+    "CertRootValue":"15E7050789DF807F3E3174294A01B637A1239F603E42F4B5DB9398EFA9DA9996",
+    "CertPublisher":"\u5317\u4eac\u91d1\u5c71\u5b89\u5168\u8f6f\u4ef6\u6709\u9650\u516c\u53f8"
+  },
+  {
+    "ID":"ID_SIGNER_KSAPI_3",
+    "Name":"GlobalSign GCC R45 EV CodeSigning CA 2020 - G3 Kingsoft",
+    "CertRootType":"TBS",
+    "CertRootValue":"D9C7DB0B704F07089440C56E69A0F31D730EDF77CFBF7514630E8B5390A270FE",
+    "CertPublisher":"\u5317\u4eac\u91d1\u5c71\u5b89\u5168\u8f6f\u4ef6\u6709\u9650\u516c\u53f8"
+  },
+  {
+    "ID":"ID_SIGNER_KSAPI_4",
+    "Name":"GlobalSign CodeSigning CA - G3",
+    "CertRootType":"TBS",
+    "CertRootValue":"F478F0E790D5C8EC6056A3AB2567404A991D2837",
+    "CertPublisher":"\u73e0\u6d77\u5e02\u541b\u5929\u7535\u5b50\u79d1\u6280\u6709\u9650\u516c\u53f8"
+  },
+  {
+    "ID":"ID_SIGNER_ATIDSMXX",
+    "Name":"DigiCert Assured ID Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"47F4B9898631773231B32844EC0D49990AC4EB1E",
+    "CertPublisher":"Advanced Micro Devices, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_ACEBASE_1",
+    "Name":"DigiCert Assured ID Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"47F4B9898631773231B32844EC0D49990AC4EB1E",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_ACEBASE_2",
+    "Name":"DigiCert SHA2 Assured ID Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"E767799478F64A34B3F53FF3BB9057FE1768F4AB178041B0DCC0FF1E210CBA65",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_TBOFLHELPER_1",
+    "Name":"TeraByte Unlimited SHA1",
+    "CertRootType":"TBS",
+    "CertRootValue":"DBFC7342EAC035786406BD030C659E155A7664F5",
+    "CertPublisher":"TeraByte Unlimited SHA1"
+  },
+  {
+    "ID":"ID_SIGNER_TBOFLHELPER_2",
+    "Name":"DigiCert High Assurance Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"1D7E838ACCD498C2E5BA9373AF819EC097BB955C",
+    "CertPublisher":"TeraByte, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_PSMOUNTEREX_1",
+    "Name":"GlobalSign",
+    "CertRootType":"TBS",
+    "CertRootValue":"BD1765C56594221373893EF26D97F88C144FB0E5A0111215B45D7239C3444DF7",
+    "CertPublisher":"Paramount Software UK Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_PSMOUNTEREX_2",
+    "Name":"GlobalSign CodeSigning CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"589A7D4DF869395601BA7538A65AFAE8C4616385",
+    "CertPublisher":"Paramount Software UK Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_PSMOUNTEREX_3",
+    "Name":"GlobalSign GCC R45 EV CodeSigning CA 2020",
+    "CertRootType":"TBS",
+    "CertRootValue":"D9C7DB0B704F07089440C56E69A0F31D730EDF77CFBF7514630E8B5390A270FE",
+    "CertPublisher":"PARAMOUNT SOFTWARE UK LIMITED"
+  },
+  {
+    "ID":"ID_SIGNER_PSMOUNTEREX_4",
+    "Name":"GlobalSign CodeSigning CA - G3",
+    "CertRootType":"TBS",
+    "CertRootValue":"F478F0E790D5C8EC6056A3AB2567404A991D2837",
+    "CertPublisher":"Paramount Software UK Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_PSMOUNTEREX_5",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"79F0A648BD7F1184F86BFF43AE47C9ECC3ED3CEC",
+    "CertPublisher":"Paramount Software UK Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_ACCELLID_1",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"A08E79C386083D875014C409C13D144E0A24386132980DF11FF59737C8489EB1",
+    "CertPublisher":"Elitegroup Computer Systems Co Ltd"
+  },
+  {
+    "ID":"ID_SIGNER_ACCELLID_2",
+    "Name":"Microsoft Windows Third Party Component CA 2012",
+    "CertRootType":"TBS",
+    "CertRootValue":"CEC1AFD0E310C55C1DCC601AB8E172917706AA32FB5EAF826813547FDF02DD46",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_AMON",
+    "Name":"Microsoft Windows Third Party Component CA 2014",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_BAOJI",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA - Baoji zhihengtaiye co.,ltd",
+    "CertRootType":"TBS",
+    "CertRootValue":"ED37AD43BC52426943019F77F35ED1A6B063B5B7",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_BEIJING_CHUNBAI",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA - Beijing Chunbai Technology Development Co., Ltd",
+    "CertRootType":"TBS",
+    "CertRootValue":"C4CD7D2A3E12022BCFE2852A14438C7F2BD3A959",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_BEIJING_VSK",
+    "Name":"Symantec Class 3 Code - Beijing VSK Soft Development Co.,Ltd; Thumbprint: 49B76C0AD6085E2F7385644F36CECC09F320BCF4",
+    "CertRootType":"TBS",
+    "CertRootValue":"399B4EC286EC1963F1BB36206F3200C23DBF1717E24CF0868335FF3E13A45EA0",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_GEOTRUST_SRL_2009",
+    "Name":"HT Srl Digital ID Class 3 - Microsoft Software Validation v2",
+    "CertRootType":"TBS",
+    "CertRootValue":"D70EDFA009A76BD8250D74E9EE92EB9EAD7D4CB3",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_GEOTRUST_SRL_2010",
+    "Name":"HT Srl Digital ID Class 3 - Microsoft Software Validation v2",
+    "CertRootType":"TBS",
+    "CertRootValue":"E5BA2ABBD1DC89F143A66A3CDCDA26D968758E2D",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_GLOBAL_SOFT",
+    "Name":"Symantec Class 3 SHA256 Code Signing CA - Global Software, LLC",
+    "CertRootType":"TBS",
+    "CertRootValue":"A79C023D3452B2F27E7BC36D2588C28564B2ABABBF78AFAC844152B8DD3A89D4",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_GOOD_WEI",
+    "Name":"thawte SHA256 Code Signing CA - \u5584\u541b \u97e6",
+    "CertRootType":"TBS",
+    "CertRootValue":"8438D529DC1D87E288CE3C8830A782BB167E20A6E1FD37624D5DF21340FF6B25",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_HANDAN",
+    "Name":"Handan City Congtai District LiKang  Daily Goods Department",
+    "CertRootType":"TBS",
+    "CertRootValue":"CCCAE21FBC083F5D1AF6997BB3F29ED9915E7324",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_HYPERTECH",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA - HYPER TECH CO., LTD.",
+    "CertRootType":"TBS",
+    "CertRootValue":"5CBF0640A92AB3779F2AF481DAF0ADFEF9BD99F5",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_NANJING",
+    "Name":"Nanjing Zhixiao Information Technology Co.,Ltd",
+    "CertRootType":"TBS",
+    "CertRootValue":"F5E1C4D98F9CE552EAD3776C16F3AD91FE5F3984",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_TRUST_ASIA",
+    "Name":"\u4e0a\u6d77\u57df\u8054\u8f6f\u4ef6\u6280\u672f\u6709\u9650\u516c\u53f8",
+    "CertRootType":"TBS",
+    "CertRootValue":"232A71B4D1734EAC2CFC6EA554C86DE34F9F8B72",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_JEROMIN_CODY_ERIC",
+    "Name":"Jeromin Cody Eric",
+    "CertRootType":"TBS",
+    "CertRootValue":"DFA6171201B51A2EC174310E8FB9F4C0FDE2D365235E589DED0213C5279BEA6E",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_SAASAME",
+    "Name":"SaaSaMe Ltd.",
+    "CertRootType":"TBS",
+    "CertRootValue":"A86DE66D8198E4272859881476A6F9936034A482",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_JCOS_1",
+    "Name":"JCOS Media srvnetbus",
+    "CertRootType":"TBS",
+    "CertRootValue":"06530FA1FA2D0954A87C4AA1891699E7C81AB2CA",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_JCOS_2",
+    "Name":"JCOS Media pshedmp",
+    "CertRootType":"TBS",
+    "CertRootValue":"8A3994CC7AA70F5480166A96A32EB10BAB0A7A36",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_VOIDTOOLS",
+    "Name":"voidtools (Thumbprint: 4DA2AD938358643571084F75F21AFDDD15D4BAE9)",
+    "CertRootType":"TBS",
+    "CertRootValue":"2AAA2A578BDEB2F1DBAAE27B6358B87D14143B7FA98518A6AC576172677225AC",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_PCTOOLS_1",
+    "Name":"VeriSign Class 3 Code Signing 2009-2 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4CDC38C800761463749C3CBD94A12F32E49877BF",
+    "CertPublisher":"PC Tools"
+  },
+  {
+    "ID":"ID_SIGNER_PCTOOLS_2",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"PC Tools"
+  },
+  {
+    "ID":"ID_SIGNER_PCTOOLS_3",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"PC Tools"
+  },
+  {
+    "ID":"ID_SIGNER_HERMETICWIPER_1",
+    "Name":"DigiCert Assured ID Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"47F4B9898631773231B32844EC0D49990AC4EB1E",
+    "CertPublisher":"CHENGDU YIWO Tech Development Co., Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_HERMETICWIPER_2",
+    "Name":"Symantec Class 3 Extended Validation Code Signing CA - G2",
+    "CertRootType":"TBS",
+    "CertRootValue":"B3C925B4048C3F7C444D248A2B101186B57CBA39596EB5DCE0E17A4EE4B32F19",
+    "CertPublisher":"Chengdu Yiwo Tech Development Co., Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_HERMETICWIPER_3",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"CHENGDU YIWO Tech Development Co., Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_HERMETICWIPER_4",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"CHENGDU YIWO Tech Development Co., Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_NVIDIA_2007",
+    "Name":"Leaked 2007 NVIDIA Corporation Verisign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"80854F578E2A3B5552EA839BA4F98DDFE94B2381",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_NVIDIA_2011",
+    "Name":"Leaked 2011 NVIDIA Corporation Verisign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"15C37DBEBE6FCC77108E3D7AD982676D3D5E77F7",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_NVIDIA_2015",
+    "Name":"Leaked 2015 NVIDIA Corporation Verisign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"F049A238763D4A90B148AB10A500F96EBF1DC436",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_VBOX_ORCALE",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Oracle Corporation"
+  },
+  {
+    "ID":"ID_SIGNER_VBOX_SUN",
+    "Name":"VeriSign Class 3 Code Signing 2004 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"C7FC1727F5B75A6421A1F95C73BBDB23580C48E5",
+    "CertPublisher":"Sun Microsystems, Inc."
+  },
+  {
+    "ID":"ID_SIGNER_GPUZ_1",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"041750993D7C9E063F02DFE74699598640911AAB",
+    "CertPublisher":"techPowerUp"
+  },
+  {
+    "ID":"ID_SIGNER_GPUZ_2",
+    "Name":"GlobalSign Primary Object Publishing CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"879269F3F467A6D59641960A62FE9CB419355FF6",
+    "CertPublisher":"TechPowerUp"
+  },
+  {
+    "ID":"ID_SIGNER_ZEMANA_1",
+    "Name":"DigiCert High Assurance Code Signing CA-1",
+    "CertRootType":"TBS",
+    "CertRootValue":"1D7E838ACCD498C2E5BA9373AF819EC097BB955C",
+    "CertPublisher":"Zemana Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_ZEMANA_2",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Zemana Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_ZEMANA_3",
+    "Name":"Microsoft Windows Third Party Component CA 2014",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_FILSECLAB",
+    "Name":"VeriSign Class 3 Code Signing 2010 CA",
+    "CertRootType":"TBS",
+    "CertRootValue":"4843A82ED3B1F2BFBEE9671960E1940C942F688D",
+    "CertPublisher":"Filseclab Corporation"
+  },
+  {
+    "ID":"ID_SIGNER_NICHETECH",
+    "Name":"Niche Technology, LLC (Thumbprint: 3F169455CB6E3AA41758018BF77C76BD5FAB90F5)",
+    "CertRootType":"TBS",
+    "CertRootValue":"825181BD24428CF03C069B973C01BDF9F6D0291FD7F51F452C6C90F5EE73571C",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_CVM_SOFT_1",
+    "Name":"Microsoft Windows Third Party Component CA 2014",
+    "CertRootType":"TBS",
+    "CertRootValue":"D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_CVM_SOFT_2",
+    "Name":"GlobalSign Extended Validation CodeSigning CA - SHA256 - G3",
+    "CertRootType":"TBS",
+    "CertRootValue":"15E7050789DF807F3E3174294A01B637A1239F603E42F4B5DB9398EFA9DA9996",
+    "CertPublisher":"CVM Software Solutions Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_CVM_SOFT_3",
+    "Name":"GlobalSign Code Signing Root R45",
+    "CertRootType":"TBS",
+    "CertRootValue":"FEC727AF43D1569995CEA26E8EB97167165842A5B185304425A92C03B71254C5D51222837515F33E60CB8ED2E8C625BA",
+    "CertPublisher":"CVM Software Solutions Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_CVM_SOFT_4",
+    "Name":"GlobalSign",
+    "CertRootType":"TBS",
+    "CertRootValue":"BD1765C56594221373893EF26D97F88C144FB0E5A0111215B45D7239C3444DF7",
+    "CertPublisher":"CVM Software Solutions Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_ARTIFICIAL_SOFT",
+    "Name":"Artificial Software BV",
+    "CertRootType":"TBS",
+    "CertRootValue":"67B8386FFC9811CEAD5D88882EE2BD4DB6B516C1542ECB1FC9B8ADA932BFE8D9",
+    "CertPublisher":""
+  },
+  {
+    "ID":"ID_SIGNER_CLEVERSOAR",
+    "Name":"GlobalSign",
+    "CertRootType":"TBS",
+    "CertRootValue":"DE1DA11668F0A8D5E13346ED3AB2755F5D25BEBFFCFD1D0BDE5B9F87BC292C91",
+    "CertPublisher":"CleverSoar Electronic Technology Co., Ltd."
+  },
+  {
+    "ID":"ID_SIGNER_STOPZILLA",
+    "Name":"iS3, Inc.",
+    "CertRootType":"TBS",
+    "CertRootValue":"967C2149FE1B6B5E943E379E3EEBE6348854257F",
+    "CertPublisher":""
+  }
+]
