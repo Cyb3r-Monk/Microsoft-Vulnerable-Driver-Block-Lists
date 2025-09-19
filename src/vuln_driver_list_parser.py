@@ -1,6 +1,7 @@
 import base64
 import re
 import pandas as pd
+from lxml import etree
 from io import StringIO
 
 def extract_filehash(friendly_name):
@@ -76,3 +77,33 @@ cols = [col for col in cols_reorder if col in cols] + [col for col in cols if co
 df = df[cols]
 df.to_csv("msft_vuln_driver_block_list.csv", index=False)
 df.to_json("msft_vuln_driver_block_list.json", orient="records", indent=2)
+
+# Process Signers
+tree = etree.parse("VulnerableDriverBlockList/SiPolicy_Enforced.xml")
+signers = tree.xpath('//ns:Signers/ns:Signer', namespaces={'ns': 'urn:schemas-microsoft-com:sipolicy'})
+
+data = []
+for signer in signers:
+    row = {
+        'ID': signer.get('ID'),
+        'Name': signer.get('Name'),
+    }
+    certroot = signer.find('ns:CertRoot', namespaces={'ns': 'urn:schemas-microsoft-com:sipolicy'})
+    if certroot is not None:
+        row['CertRootType'] = certroot.get('Type')
+        row['CertRootValue'] = certroot.get('Value')
+    else:
+        row['CertRootType'] = ''
+        row['CertRootValue'] = ''
+    # data.append(row)
+    certpublisher = signer.find('ns:CertPublisher', namespaces={'ns': 'urn:schemas-microsoft-com:sipolicy'})
+    if certpublisher is not None:
+        row['CertPublisher'] = certpublisher.get('Value')
+    else:
+        row['CertPublisher'] = ''
+    data.append(row)
+
+df = pd.DataFrame(data)
+df.fillna("", inplace=True)
+df.to_csv("msft_vuln_driver_signers.csv", index=False)
+df.to_json("msft_vuln_driver_signers.json", orient="records", indent=2)
