@@ -7,6 +7,15 @@
     <!-- Tabulator Dark Theme CSS -->
     <link href="https://unpkg.com/tabulator-tables@6.3.1/dist/css/tabulator_midnight.min.css" rel="stylesheet">
     <style>
+    /* Highlight active Tabulator pagination button */
+    .tabulator .tabulator-footer .tabulator-paginator button[aria-current="page"],
+    .tabulator .tabulator-footer .tabulator-paginator button.active {
+        background: #4fc3f7 !important;
+        color: #181a20 !important;
+        border: 2px solid #81d4fa !important;
+        font-weight: bold;
+        box-shadow: 0 2px 8px rgba(79,195,247,0.15);
+    }
     /* Make Tabulator pagination buttons more visible in dark mode */
     .tabulator .tabulator-footer .tabulator-paginator button {
         background: #23272f !important;
