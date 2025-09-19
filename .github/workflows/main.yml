@@ -36,6 +36,8 @@ jobs:
         curl -L -o VulnerableDriverBlockList.zip https://aka.ms/VulnerableDriverBlockList
         unzip -o VulnerableDriverBlockList.zip
         python src/vuln_driver_list_parser.py
+        cp msft_vuln_driver_block_list.json docs/
+        cp msft_vuln_driver_signers.json docs/
       shell: bash
     - name: Push to "main" branch
       run: |
