@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Vulnerable Driver Block List</title>
+    <!-- Tabulator Dark Theme CSS -->
+    <link href="https://unpkg.com/tabulator-tables@6.3.1/dist/css/tabulator_midnight.min.css" rel="stylesheet">
+    <style>
+    /* Make Tabulator pagination buttons more visible in dark mode */
+    .tabulator .tabulator-footer .tabulator-paginator button {
+        background: #23272f !important;
+        color: #4fc3f7 !important;
+        border: 1px solid #4fc3f7 !important;
+        font-weight: bold;
+        border-radius: 6px;
+        margin: 0 2px;
+        transition: background 0.2s, color 0.2s;
+    }
+    .tabulator .tabulator-footer .tabulator-paginator button:hover,
+    .tabulator .tabulator-footer .tabulator-paginator button:focus {
+        background: #4fc3f7 !important;
+        color: #181a20 !important;
+        border: 1px solid #81d4fa !important;
+    }
+    body { font-family: Arial, sans-serif; background: #181a20; margin: 0; color: #e0e0e0; }
+    .header { display: flex; align-items: center; padding: 1.5em 2em 1em 2em; background: #23272f; color: #fff; }
+    .logo { width: 64px; height: 64px; margin-right: 1.5em; background: #23272f; border-radius: 8px; object-fit: contain; }
+    .title { font-size: 2em; font-weight: bold; }
+    .references { margin: 2em; font-size: 1.1em; }
+    .references a { margin-right: 1.5em; color: #4fc3f7; text-decoration: none; }
+    .references a:hover { text-decoration: underline; color: #81d4fa; }
+    #tabs { display: flex; margin: 2em 2em 0 2em; }
+    .tab-btn { padding: 0.7em 2em; background: #23272f; border: none; border-radius: 8px 8px 0 0; margin-right: 0.5em; cursor: pointer; font-size: 1.1em; color: #e0e0e0; transition: background 0.2s, color 0.2s, font-weight 0.2s; }
+    .tab-btn.active {
+        background: #4fc3f7;
+        color: #181a20;
+        font-weight: bold;
+        border-bottom: 3px solid #81d4fa;
+        box-shadow: 0 2px 8px rgba(79,195,247,0.15);
+    }
+    .tab-content { display: none; margin: 0 2em 2em 2em; }
+    .tab-content.active { display: block; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!--<img src="logo.png" alt="Logo" class="logo" />-->
+        <span class="title">Microsoft Vulnerable Driver Block List</span>
+    </div>
+    <div class="body" style="margin: 0 2em; font-size: 1.1em;">
+        <br>
+        Searchable data of Microsoft Vulnerable Driver Block List. The tables contain details of File Rules and Signers available in the SiPolicy_Enforced.xml file in an enriched format.
+    </div>
+    <div class="references">
+        <!-- Reference Links -->
+        <a href="https://github.com/Cyb3r-Monk/Microsoft-Vulnerable-Driver-Block-Lists" target="_blank">GitHub Project Page</a>
+        <br>
+        <a href="https://academy.bluraven.io" target="_blank">Blu Raven Academy</a>
+    </div>
+    <div id="tabs">
+        <button class="tab-btn active" data-tab="files">Files</button>
+        <button class="tab-btn" data-tab="signers">Signers</button>
+    </div>
+    <div id="files-tab" class="tab-content active">
+        <div id="files-table"></div>
+    </div>
+    <div id="signers-tab" class="tab-content">
+        <div id="signers-table"></div>
+    </div>
+    <!-- Tabulator JS -->
+    <script src="https://unpkg.com/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
+    <script>
+    // Tab switching logic
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+            this.classList.add('active');
+            document.getElementById(this.dataset.tab + '-tab').classList.add('active');
+        });
+    });
+
+    // Files Table
+    fetch('../msft_vuln_driver_block_list.json')
+        .then(response => response.json())
+        .then(data => {
+            const filesColumns = [
+                {title: "ID", field: "ID", sorter: "string", headerFilter: "input"},
+                {title: "Friendly Name", field: "FriendlyName", sorter: "string", headerFilter: "input"},
+                {title: "File Name", field: "FileName", sorter: "string", headerFilter: "input"},
+                {title: "Authentihash", field: "Authentihash", sorter: "string", headerFilter: "input"},
+                {title: "File Hash", field: "FileHash", sorter: "string", headerFilter: "input"},
+                {title: "Base64 File Hash", field: "b64FileHash", sorter: "string", headerFilter: "input"},
+                {title: "Minimum File Version", field: "MinimumFileVersion", sorter: "string", headerFilter: "input"},
+                {title: "Maximum File Version", field: "MaximumFileVersion", sorter: "string", headerFilter: "input"},
+                {title: "Internal Name", field: "InternalName", sorter: "string", headerFilter: "input"},
+                {title: "Product Name", field: "ProductName", sorter: "string", headerFilter: "input"}
+            ];
+            new Tabulator("#files-table", {
+                data: data,
+                layout: "fitColumns",
+                columns: filesColumns,
+                pagination: true,
+                paginationSize: 25,
+                movableColumns: true,
+                initialSort: [
+                    {column: "ID", dir: "asc"}
+                ],
+                height: "600px",
+            });
+        })
+        .catch(err => {
+            document.getElementById('files-table').innerHTML = '<div style="color:red">Failed to load data.</div>';
+        });
+
+    // Signers Table
+    fetch('../msft_vuln_driver_signers.json')
+        .then(response => response.json())
+        .then(data => {
+            const signersColumns = [
+                {title: "ID", field: "ID", sorter: "string", headerFilter: "input"},
+                {title: "Name", field: "Name", sorter: "string", headerFilter: "input"},
+                {title: "CertRoot Type", field: "CertRootType", sorter: "string", headerFilter: "input"},
+                {title: "CertRoot Value", field: "CertRootValue", sorter: "string", headerFilter: "input"},
+                {title: "CertPublisher", field: "CertPublisher", sorter: "string", headerFilter: "input"}
+            ];
+            new Tabulator("#signers-table", {
+                data: data,
+                layout: "fitColumns",
+                columns: signersColumns,
+                pagination: true,
+                paginationSize: 25,
+                movableColumns: true,
+                initialSort: [
+                    {column: "ID", dir: "asc"}
+                ],
+                height: "600px",
+            });
+        })
+        .catch(err => {
+            document.getElementById('signers-table').innerHTML = '<div style="color:red">Failed to load data.</div>';
+        });
+    </script>
+</body>
+</html>
